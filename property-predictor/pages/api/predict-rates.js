@@ -81,7 +81,7 @@ const propertyRates = {
   // Mock prediction function (replace with actual prediction logic)
   function predictRates(area, currentRate) {
     const yearOneRate = currentRate * 1.05; // 5% increase
-    const yearTwoRate = yearOneRate * 1.05; // Another 5% increase
+    const yearTwoRate = yearOneRate * 1.15; // Another 5% increase
     return { yearOne: yearOneRate, yearTwo: yearTwoRate };
   }
   
