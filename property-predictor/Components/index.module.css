@@ -5,47 +5,49 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #f4f4f9;
+  background: linear-gradient(135deg, #f5f7f9, #eaf2f8);
   font-family: 'Arial', sans-serif;
   padding: 20px;
 }
 
 .main {
   background-color: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  padding: 40px;
   width: 100%;
-  max-width: 800px;
+  max-width: 900px;
 }
 
 .title {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #333;
   margin-bottom: 20px;
   text-align: center;
+  font-weight: 700;
 }
 
 .description {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #555;
   margin-bottom: 30px;
   text-align: center;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .form {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
 }
 
 .input {
-  padding: 10px;
-  font-size: 1rem;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  padding: 15px;
+  font-size: 1.1rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
   outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .input:focus {
@@ -54,56 +56,58 @@
 }
 
 .button {
-  padding: 10px 20px;
-  font-size: 1rem;
+  padding: 15px 25px;
+  font-size: 1.1rem;
   color: #fff;
   background-color: #007bff;
   border: none;
-  border-radius: 4px;
+  border-radius: 8px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .button:disabled {
-  background-color: #ccc;
+  background-color: #cccccc;
   cursor: not-allowed;
 }
 
 .button:not(:disabled):hover {
   background-color: #0056b3;
+  transform: scale(1.02);
 }
 
 .error {
   color: #d9534f;
-  font-size: 0.875rem;
+  font-size: 0.9rem;
   margin-top: 10px;
   text-align: center;
 }
 
 .prediction {
-  background-color: #eaf2f8;
-  border: 1px solid #cce5ff;
-  border-radius: 4px;
+  background-color: #f0f9ff;
+  border: 1px solid #b3d4fc;
+  border-radius: 8px;
   padding: 20px;
   margin-top: 20px;
 }
 
 .prediction h2 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   color: #333;
   margin-bottom: 15px;
   text-align: center;
+  font-weight: 600;
 }
 
 .prediction p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #333;
   margin: 5px 0;
   text-align: center;
 }
 
 .chartContainer {
-  margin-top: 20px;
+  margin-top: 30px;
   height: 400px;
   width: 100%;
 }

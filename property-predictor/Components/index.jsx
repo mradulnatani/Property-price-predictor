@@ -73,7 +73,7 @@ export default function Index() {
       <main className={styles.main}>
         <h1 className={styles.title}>Property Rate Predictor</h1>
         <h2 className={styles.description}>
-          We have information about property rates in various areas like We have information about Property rates in Vijay Nagar,
+        We have information about Property rates in Vijay Nagar,
 Bhanwarkuan,
 Scheme No. 78,
 Rajendra Nagar,
