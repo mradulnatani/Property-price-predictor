@@ -49,7 +49,7 @@ export default function Index() {
     <div className={styles.container}>
       <main className={styles.main}>
         <h1 className={styles.title}>Property Rate Predictor</h1>
-        <h1 style={{padding:'50px'}}> We have information about Property rates in Vijay Nagar,
+        <h1 style={{padding:'50px', color:'black'}}> We have information about Property rates in Vijay Nagar,
 Bhanwarkuan,
 Scheme No. 78,
 Rajendra Nagar,
